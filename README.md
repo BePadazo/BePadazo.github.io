@@ -1,37 +1,149 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<!--
+	Rocket Internet by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 
-You can use the [editor on GitHub](https://github.com/BePadazo/BePadazo.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<html>
+<head>
+	<title>Rocket Internet by TEMPLATE STOCK</title>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-### Markdown
+	<!-- Goggle Font -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<!-- Font Css -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-```markdown
-Syntax highlighted code block
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-# Header 1
-## Header 2
-### Header 3
+	<!-- Animation Css -->
+	<link rel="stylesheet" href="css/animate.css">
 
-- Bulleted
-- List
+</head>
+<body>
+<header>
+	<div id="homeFullScreen">
+		<div class="header-text">
+			<h1>Rocket internet</h1>
+			<div class="vertical-line"></div>
+			<p>
+				LOREM IPSUM DOLOR SIT AMET NULLAM CONSEQUAT 
+				<br />
+				INTERDUM VIVAMUS DONCE SED LIBERO.
+			</p>
+		</div><!-- End HeaderText -->
+	</div><!-- End homeFullScreen -->
+</header><!-- End Header -->
 
-1. Numbered
-2. List
+<!-- Feature -->
 
-**Bold** and _Italic_ and `Code` text
+<section class="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Lorem Ipsum</h1>
+					<p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="images/1.png">
+			</div><!-- End col-md-6 -->
 
-[Link](url) and ![Image](src)
-```
+			<div class="clearfix"></div><!-- End clearfix -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="images/1.png">
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1>Lorem Ipsum</h1>
+					<p>Lorem Ipsum is Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 	the industry's standard dummy text ever since the 1500s,</p>
+				</div>
+			</div><!-- End col-md-6 -->
+		</div>
+	</div>
+</section>
 
-### Jekyll Themes
+<!-- portfolio -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BePadazo/BePadazo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<section class="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="heading">Portfolio</h1>
+			</div><!-- End col-md-12 -->
 
-### Support or Contact
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-1.png">
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-2.png">
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4 last-img">
+				<img src="images/p-3.png">
+			</div><!-- End col-md-4 -->
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+			<div class="clearfix"></div><!-- End clearfix -->
+
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-4.png">
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4">
+				<img src="images/p-5.png">
+			</div><!-- End col-md-4 -->
+			<div class="col-md-4 col-sm-4 last-img">
+				<img src="images/p-6.png">
+			</div><!-- End col-md-4 -->
+		</div><!-- End row -->
+	</div><!-- End container -->
+</section>
+
+<!-- Call to Action -->
+<section class="call-top-action text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>many variations of passages</h1>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
+				<br />
+				in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+				<span>LOREM IPSUM</span>
+			</div><!-- End col-md-12 -->
+		</div><!-- End row -->
+	</div><!-- End container -->
+</section>
+
+<!-- Footer -->
+<footer>
+	<ul class="in-line">
+		<li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+		<li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+		<li><a href="#"><span><i class="fa fa-youtube"></i></span></a></li>
+	</ul>
+	<span class="copyright">&#169; Untitled . All rights reserved. Design By <a href="http://templatestock.co">Templatestock.co</a></span>
+</footer>
+	
+
+
+
+<!-- Main JS -->
+<script type="text/javascript" src="js/jquery-main.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- Animation JS -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+
+<!-- Custom JS -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html>
