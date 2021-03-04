@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!--
 	Rocket Internet by TEMPLATE STOCK
 	templatestock.co @templatestock
